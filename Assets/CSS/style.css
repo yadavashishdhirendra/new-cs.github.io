@@ -638,7 +638,6 @@ header css ends here */
 /* Tab module css starts here */
 .tab-module-wrapper {
     background-color: #C16A93;
-    height: 100vh;
     padding: 50px 0px 50px 0px;
 }
 
@@ -747,6 +746,39 @@ header css ends here */
     color: #2B2B2B;
     letter-spacing: .3px;
 }
+
+.newly-change-tab {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.newly-change-tab>div {
+    height: auto;
+}
+
+.newly-change-tab>div>img {
+    width: 100%;
+}
+
+
+.newly-change-tab>div>h4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.newly-change-tab>div>h4:before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.newly-change-tab>div>h4:before {
+    margin-right: 10px
+}
+
 
 @media screen and (max-width: 992px) {
     .delivery-grid-row {
