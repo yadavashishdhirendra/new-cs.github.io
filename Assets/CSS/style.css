@@ -474,7 +474,7 @@ header css ends here */
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     max-width: 70%;
-    margin: auto;
+    margin: 0rem auto 2rem auto;
 }
 
 .valued-customer-grid>div {
