@@ -842,3 +842,121 @@ hr:not([size]) {
 }
 
 /* delivery css ends here */
+
+/* footer css starts here */
+.footer-wrapper {
+    background-color: #5D2F78;
+    padding: 40px 20px 40px 20px;
+    background-image: url('../Images/Icons/footer_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer-grid-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    border-bottom: 1px solid #C16A93;
+    padding-bottom: 30px;
+}
+
+.footer-grid-row>div {
+    /* border: 1px solid black; */
+    height: auto;
+}
+
+.footer-grid-row>div>h5 {
+    color: #c16a93;
+    font-size: 16px;
+    font-family: 'Roboto_Bold';
+    letter-spacing: .3px;
+}
+
+.links-footer {
+    margin-top: 1rem;
+}
+
+.links-footer>a {
+    margin-bottom: 0.2rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto_Regular';
+}
+
+.mi-products-grid-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.mi-products-grid-row>div {
+    height: auto;
+    text-align: center;
+}
+
+.mi-products-grid-row>div>img {
+    width: 50px;
+    height: 50px;
+}
+
+.mi-products-grid-row>div>p {
+    font-size: 10px;
+    margin-bottom: 0rem;
+    color: white;
+    font-family: 'Roboto_Medium';
+    margin-top: 0.3rem;
+}
+
+.read-more-linking {
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    margin-top: 1rem;
+    font-family: 'Roboto_Bold';
+    margin-right: 20px;
+}
+
+.footer-grid-row>div {
+    border-right: 1px solid #C16A93;
+}
+
+.footer-grid-row>div:last-child {
+    border-right: none;
+}
+
+.download-our-mobile-app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    border-bottom: 1px solid #C16A93;
+    padding-bottom: 20px;
+}
+
+.legal-rights {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.legal-rights>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.copyright-stats{
+    font-family: 'Roboto_Medium';
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    color: #C16A93;
+    text-align: center;
+}
+
+/* footer css ends here */
