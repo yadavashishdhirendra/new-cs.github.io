@@ -762,14 +762,14 @@ header css ends here */
     width: 100%;
 }
 
-.newly-change-tab-col>h4{
+.newly-change-tab-col>h4 {
     color: white;
     font-family: 'Roboto_Bold';
     letter-spacing: .3px;
     margin-bottom: 1rem;
 }
 
-.newly-change-tab>div>p{
+.newly-change-tab>div>p {
     font-size: 16px;
     color: white;
     font-family: 'Roboto_Regular';
@@ -805,6 +805,39 @@ hr:not([size]) {
 @media screen and (max-width: 640px) {
     .tab-module-wrapper>.container>h3 {
         margin-top: 0rem;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    .about-grid-row>div {
+        padding-left: 1rem;
+    }
+
+    .about-grid-row {
+        margin-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .newly-change-tab {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-grid-row {
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .valued-bg {
+        margin: 20px 10px 20px 10px;
+        padding: 30px 15px 30px 15px;
+    }
+
+    .valued-bg-1 {
+        margin: 0px 10px 0px 10px;
+        padding: 10px 0px 10px 0px;
     }
 }
 
