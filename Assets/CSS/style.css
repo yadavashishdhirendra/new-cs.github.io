@@ -392,6 +392,22 @@ header css ends here */
     grid-gap: 5rem;
 }
 
+.icons-grid-wrapper>div:nth-child(1) {
+    position: relative;
+    top: 0%;
+}
+
+.icons-grid-wrapper>div:nth-child(2) {
+    position: relative;
+    top: 0%;
+}
+
+.arrow-icon {
+    position: absolute;
+    top: 0px;
+    right: -95px;
+}
+
 .new-icons-grid-wrapper {
     max-width: fit-content;
     margin: 3rem auto;
@@ -566,7 +582,7 @@ header css ends here */
 
 .para-about-us>button:nth-child(6) {
     border: none;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     padding: 6px 20px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -579,6 +595,7 @@ header css ends here */
     color: white;
     font-family: 'Roboto_Bold';
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: 1rem;
 }
 
 .para-about-us>button:nth-child(7) {
@@ -1136,6 +1153,7 @@ hr:not([size]) {
         grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 0rem;
     }
+
     .our-brands-grid-row>div>img {
         width: 120px;
     }
@@ -1144,5 +1162,26 @@ hr:not([size]) {
 @media screen and (max-width: 576px) {
     .our-brands-grid-row {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .arrow-icon {
+        right: -70px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .arrow-icon {
+        right: -60px;
+        width: 80px !important;
+        height: 80px !important;
+        top: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .arrow-icon {
+        display: none;
     }
 }
