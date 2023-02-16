@@ -1186,7 +1186,7 @@ hr:not([size]) {
     }
 }
 
-.view-products>button{
+.view-products>button {
     background-color: #000000;
     color: white;
     margin-top: 2rem;
@@ -1200,6 +1200,12 @@ hr:not([size]) {
     border: none;
 }
 
-.view-products{
+.view-products {
     text-align: center;
+}
+
+.newly-change-tab>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
