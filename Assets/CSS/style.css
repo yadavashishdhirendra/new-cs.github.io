@@ -1185,3 +1185,20 @@ hr:not([size]) {
         display: none;
     }
 }
+
+.view-products>button{
+    background-color: #000000;
+    color: white;
+    margin-top: 2rem;
+    padding: 6px 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-family: 'Roboto_Medium';
+}
+
+.view-products{
+    text-align: center;
+}
