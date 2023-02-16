@@ -1197,6 +1197,7 @@ hr:not([size]) {
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
     font-family: 'Roboto_Medium';
+    border: none;
 }
 
 .view-products{
