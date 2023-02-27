@@ -359,8 +359,8 @@ header css ends here */
 .about-grid-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
-    margin-bottom: 0rem;
+    grid-gap: 3rem;
+    margin-bottom: 1rem;
 }
 
 /* about grid row */
@@ -563,7 +563,7 @@ header css ends here */
 }
 
 .about-grid-row>div {
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
 }
 
 .button-valued-customer>div>button {
@@ -1212,4 +1212,9 @@ hr:not([size]) {
 
 .tab-grid-row>div>div{
     cursor: pointer;
+}
+
+.about-us-container{
+    max-width: 1430px;
+    margin: auto;
 }
