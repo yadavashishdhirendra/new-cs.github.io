@@ -1224,3 +1224,9 @@ hr:not([size]) {
     max-width: 1430px;
     margin: auto;
 }
+
+@media screen and (min-width: 1081px) {
+    .img{
+        margin-left: 3rem;
+    }
+}
