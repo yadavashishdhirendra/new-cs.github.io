@@ -363,9 +363,9 @@ header css ends here */
     margin-bottom: -4rem;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1368px) {
     .about-grid-row{
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 }
 
@@ -632,7 +632,7 @@ header css ends here */
 
     .about-grid-row>div {
         padding-left: 0rem;
-        padding: 0px 20px 0px 20px;
+        /* padding: 0px 20px 0px 20px; */
     }
 }
 
@@ -854,9 +854,9 @@ hr:not([size]) {
 
 
 @media screen and (max-width: 1440px) {
-    .about-grid-row>div {
+    /* .about-grid-row>div {
         padding-left: 1rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 1280px) {
