@@ -360,11 +360,11 @@ header css ends here */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
-    margin-bottom: -4rem;
+    margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 1368px) {
-    .about-grid-row{
+    .about-grid-row {
         margin-bottom: 3rem;
     }
 }
@@ -555,7 +555,7 @@ header css ends here */
 }
 
 .img {
-    width: 90%;
+    width: 100%;
     /* transform: rotate(20deg); */
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1216,17 +1216,36 @@ hr:not([size]) {
     justify-content: center;
 }
 
-.tab-grid-row>div>div{
+.tab-grid-row>div>div {
     cursor: pointer;
 }
 
-.about-us-container{
+.about-us-container {
     max-width: 1430px;
     margin: auto;
 }
 
 @media screen and (min-width: 1081px) {
-    .img{
+    .img {
         margin-left: 3rem;
+    }
+}
+
+.about-grid-row>div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-about-us>p{
+    text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+    .about-grid-row{
+        grid-gap: 0rem;
+    }
+    .new-icons-grid-wrapper{
+        bottom: -120px;
     }
 }
