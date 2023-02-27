@@ -293,7 +293,7 @@ header css ends here */
 }
 
 #title {
-    background: url(https://www.milifestylemarketing.com/Images/MiLifestyle9thAnBAnner.jpg);
+    background: url('../Images/h1-text-background.jpg');
     background-size: contain;
     color: #fff;
     -webkit-text-fill-color: transparent;
@@ -314,9 +314,9 @@ header css ends here */
     margin-top: 1rem;
 }
 
-.para-about-us>p:nth-child(1) {
-    font-family: 'Roboto_Bold';
-    color: #5D2F78;
+.para-about-us>.head-about {
+    font-family: 'Roboto_Regular';
+    /* color: #5D2F78; */
     font-size: 16px;
     letter-spacing: .3px;
 }
@@ -360,7 +360,7 @@ header css ends here */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    margin-bottom: -12rem;
+    margin-bottom: 0rem;
 }
 
 /* about grid row */
@@ -550,16 +550,16 @@ header css ends here */
 
 .img {
     width: 90%;
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    -webkit-transform: rotate(20deg);
+    /* -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
+    -o-transform: rotate(20deg); */
 }
 
 .about-grid-row>div {
@@ -580,7 +580,7 @@ header css ends here */
     padding: 6px 8px;
 }
 
-.para-about-us>button:nth-child(6) {
+.para-about-us>.button-class-mx1 {
     border: none;
     margin-right: 0.5rem;
     padding: 6px 20px;
@@ -598,7 +598,7 @@ header css ends here */
     margin-top: 1rem;
 }
 
-.para-about-us>button:nth-child(7) {
+.para-about-us>.button-class-mx2 {
     border: none;
     margin-right: 1rem;
     padding: 6px 20px;
@@ -855,7 +855,7 @@ hr:not([size]) {
 
 @media screen and (max-width: 1280px) {
     .about-grid-row {
-        margin-bottom: -7rem;
+        margin-bottom: 6rem;
     }
 }
 
@@ -1208,4 +1208,8 @@ hr:not([size]) {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.tab-grid-row>div>div{
+    cursor: pointer;
 }
