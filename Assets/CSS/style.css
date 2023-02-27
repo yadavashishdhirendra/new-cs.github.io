@@ -360,7 +360,13 @@ header css ends here */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: -4rem;
+}
+
+@media screen and (max-width: 1440px) {
+    .about-grid-row{
+        margin-bottom: 2rem;
+    }
 }
 
 /* about grid row */
