@@ -78,6 +78,13 @@ p{
     color: #5D2F78;
 }
 
+.content-place h4 {
+    font-size: 24px;
+    font-family: 'Roboto_Medium';
+    letter-spacing: .3px;
+    color: #2B2B2B;
+}
+
 .content-place h2 {
     font-size: 28px;
     font-family: 'Roboto_Bold';
